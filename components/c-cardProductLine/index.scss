@@ -1,0 +1,88 @@
+.c-cardProductLine {
+	&__head {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding-top: 80px;
+		&__tagline {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			img {
+				display: block;
+				width: auto;
+				height: 115px;
+			}
+		}
+		&__bg {
+			.c-skewBlock {
+				@extend .u-aspectRatio;
+				@extend .--ratio-16-9;
+				width: 100%;
+				height: auto;
+			}
+		}
+		&__picture {
+			position: absolute;
+			top: 30px;
+			left: 0;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100%;
+			img {
+				display: block;
+				width: auto;
+				max-width: 92%;
+				max-height: 480px;
+				object-fit: contain;
+			}
+		}
+	}
+	&__content {
+		display: block;
+		width: 100%;
+		padding-top: 100px;
+		.c-btn {
+			margin-top: 20px;
+		}
+	}
+
+	&.--secondary,
+	&.--movaOrto {
+		.c-skewBlock {
+			@extend .--secondary;
+		}
+		.c-btn {
+			@extend .--secondary;
+		}
+	}
+	&.--third,
+	&.--movaUp {
+		.c-skewBlock {
+			@extend .--third;
+		}
+		.c-btn {
+			@extend .--third;
+		}
+	}
+
+	&:hover {
+
+	}
+}
+@media screen and (max-width: 780px) {
+	.c-cardProductLine {
+		.c-btn {
+			.c-btn__caption {
+				font-weight: var(--btn__m__caption__fw);
+				font-size: var(--btn__m__caption__fs);
+				padding-left: calc(var(--btn__m__icon__spacer) / 2);
+				padding-right: calc(var(--btn__m__icon__spacer) / 2);
+			}
+		}
+	}
+}

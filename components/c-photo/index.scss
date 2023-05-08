@@ -1,0 +1,13 @@
+.c-photo {
+	display: block;
+	img {
+		display: block;
+		width: 100%;
+		border-radius: var(--radius);
+	}
+
+	figcaption {
+		@include preset__p__s();
+		padding-top: 6px;
+	}
+}

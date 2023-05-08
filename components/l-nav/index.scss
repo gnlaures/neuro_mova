@@ -1,0 +1,156 @@
+.l-nav {
+	@include transition();
+	width: 100%;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: rgba(33,48,103,0);
+	backdrop-filter: blur(0px);
+	&__effect {
+		@include transition();
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 184px 690px 0 0;
+		border-color: #ffffff transparent transparent transparent;
+	}
+	&__main {
+		@include transition();
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		padding: 30px 45px 0 30px;
+		position: relative;
+		z-index: 2;
+	}
+	&__hamburguer {
+		display: none;
+	}
+	&__brand {
+		@include transition();
+		@include flexWidth(200px);
+	}
+	&__menu {
+		flex: 1 1 auto;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-end;
+		li {
+			display: block;
+			margin-right: 30px;
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+		a:not(.c-btn) {
+			color: var(--white);
+			font-weight: var(--fw__semiBold);
+			font-size: 20px;
+			position: relative;
+			&:before {
+				@include transition($duration: 100ms);
+				content: '';
+				display: block;
+				width: 0%;
+				border-radius: var(--radius);
+				height: 3px;
+				opacity: 0;
+				position: absolute;
+				bottom: -6px;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+				background: var(--white);
+			}
+			&:hover {
+				&:before {
+					opacity: 1;
+					width: 100%;
+				}
+			}
+		}
+	}
+	&__cta {
+
+	}
+
+	&.--scrolledDown,
+	&.--scrolledUp {
+		background: rgba(33,48,103,0.75);
+		backdrop-filter: blur(5px);
+		.l-nav__main {
+			padding-bottom: 15px;
+			padding-top: 15px;
+		}
+		.l-nav__effect {
+			top: -50px;
+		}
+		.l-nav__brand {
+			@include flexWidth(150px);
+		}
+	}
+}
+
+@media screen and (max-width: 1360px) {
+	.l-nav {
+		&__effect {
+			border-width: 130px 487px 0 0;
+		}
+		&__main {
+			padding: 25px 40px 0 25px;
+		}
+		&__brand {
+			@include flexWidth(130px);
+		}
+	}
+}
+@media screen and (max-width: 1180px) {
+	.l-nav {
+		&__main {
+			padding-right: 25px;
+		}
+		&__menu {
+			li {
+				display: none;
+				&:last-of-type {
+					display: block;
+				}
+			}
+		}
+		&__hamburguer {
+			display: block;
+			padding-left: 40px;
+		}
+	}
+}
+@media screen and (max-width: 580px) {
+	.l-nav {
+		&__menu {
+			display: none;
+		}
+	}
+}
+@media screen and (max-width: 450px) {
+	.l-nav {
+		&__effect{
+			top: -15px;
+		}
+		&__main {
+			padding: 10px 15px;
+			background: var(--white);
+		}
+		.c-hamburguer {
+			&__bar {
+				background: var(--primary);
+			}
+		}
+	}
+}

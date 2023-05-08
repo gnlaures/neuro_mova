@@ -1,0 +1,61 @@
+.c-iconBlock {
+	@include transforms(skewY(var(--defaultDeg)), center);
+	width: 56px;
+	height: 56px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: var(--radius);
+	&__hero {
+		@include transforms(skewY(var(--defaultDeg__oposite)), center);
+		display: block;
+		width: 100%;
+	}
+
+	img, svg {
+		display: block;
+		object-fit: contain;
+		width: 30px;
+		height: 30px;
+		margin: 0 auto;
+	}
+	span {
+		display: none;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: var(--fw__bold);
+		color: var(--white);
+		font-size: 16px;
+		padding: 0 5px;
+		margin-top: 8px;
+		letter-spacing: -0.5px;
+	}
+
+	&.--l {
+		width: 140px;
+		height: 140px;
+		img {
+			width: 60px;
+			height: 60px;
+		}
+		span {
+			display: block;
+		}
+	}
+
+	// mova
+	&.--primary {background: var(--primary);}
+	&.--primary__light {background: var(--primary__light);}
+	&.--primary__dark {background: var(--primary__dark);}
+	// movaOrto
+	&.--secondary {background: var(--secondary);}
+	&.--secondary__light {background: var(--secondary__light);}
+	&.--secondary__dark {background: var(--secondary__dark);}
+	// movaUp
+	&.--third {background: var(--third);}
+	&.--third__light {background: var(--third__light);}
+	&.--third__dark {background: var(--third__dark);}
+	// black
+	&.--black {background: var(--black);}
+}

@@ -1,0 +1,43 @@
+.c-breadcrumb {
+	ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		li {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+
+			svg {
+				display: block;
+				position: relative;
+				top: 1px;
+				left: 1px;
+				width: 20px;
+				height: 18px;
+				margin: 0 4px;
+				path {
+					stroke: var(--primary);
+				}
+			}
+			a {
+				@include preset__p__s();
+				&:hover {
+					color: var(--primary);
+				}
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+				svg {
+					display: none;
+				}
+				a {
+					font-weight: var(--fw__bold);
+					pointer-events: none;
+				}
+			}
+		}
+	}
+}

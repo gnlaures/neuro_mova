@@ -1,0 +1,38 @@
+.c-arrowButton {
+	cursor: pointer;
+
+	.c-iconBlock {
+		&__hero {
+			position: relative;
+			img {
+				width: 26px;
+				height: 26px;
+			}
+		}
+	}
+
+	&.--prev,
+	&.--left {
+		.c-iconBlock__hero {
+			transform: rotate(105deg) skewY(var(--defaultDeg));
+		}
+	}
+
+	&.--next,
+	&.--right {
+		.c-iconBlock__hero {
+			transform: rotate(290deg) skewY(var(--defaultDeg));
+		}
+	}
+
+	&.swiper-button-disabled {
+		pointer-events: none;
+		opacity: 0.25;
+	}
+
+	&:hover {
+		.c-iconBlock {
+			background: var(--primary__dark);
+		}
+	}
+}

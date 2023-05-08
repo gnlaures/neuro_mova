@@ -1,0 +1,110 @@
+.c-socialList {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+
+	li {
+		margin-right: 10px;
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+	&__item {
+		i {
+			@include transition();
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+			svg {
+				display: block;
+				width: 22px;
+				height: 22px;
+				path {
+					fill: var(--white);
+				}
+			}
+		}
+		span {
+			@include transition();
+			display: none;
+		}
+
+		&.--facebook i {background: var(--facebook__primary);}
+		&.--facebook:hover i {background: var(--facebook__secondary);}
+		&.--instagram i {background: var(--instagram__primary);}
+		&.--instagram:hover i {background: var(--instagram__secondary);}
+		&.--twitter i {background: var(--twitter__primary);}
+		&.--twitter:hover i {background: var(--twitter__secondary);}
+		&.--linkedin i {background: var(--linkedin__primary);}
+		&.--linkedin:hover i {background: var(--linkedin__secondary);}
+		&.--youtube i {background: var(--youtube__primary);}
+		&.--youtube:hover i {background: var(--youtube__secondary);}
+		&.--wpp i {background: var(--wpp__primary);}
+		&.--wpp:hover i {background: var(--wpp__secondary);}
+		&.--primary i {background: var(--primary);}
+		&.--primary:hover i {background: var(--primary__dark);}
+		&.--secondary i {background: var(--secondary);}
+		&.--secondary:hover i {background: var(--secondary__dark);}
+		&.--white i {
+			background: var(--white2);
+			svg path {fill: var(--text);}
+		}
+		&.--white:hover i {
+			background: var(--gray);
+			svg path {fill: var(--text__dark);}
+		}
+	}
+
+	&.--withCaptions {
+		display: block;
+		li {
+			margin-right: 0;
+			margin-bottom: 10px;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+		.c-socialList__item {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: flex-start;
+			i {
+
+			}
+			span {
+				@include preset__p();
+				padding-left: 5px;
+				display: block;
+			}
+			&.--facebook:hover span {color: var(--facebook__secondary);}
+			&.--instagram:hover span {color: var(--instagram__secondary);}
+			&.--twitter:hover span {color: var(--twitter__secondary);}
+			&.--linkedin:hover span {color: var(--linkedin__secondary);}
+			&.--youtube:hover span {color: var(--youtube__secondary);}
+			&.--wpp:hover span {color: var(--wpp__secondary);}
+			&.--primary:hover span {color: var(--primary);}
+			&.--secondary:hover span {color: var(--secondary);}
+			&.--white:hover span {color: var(--text__dark);}
+		}
+
+		&.--horizontal {
+			display: flex;
+			flex-direction: row;
+			li {
+				margin-right: 30px;
+			}
+		}
+	}
+
+	&.--whiteCaptions {
+		span {
+			color: var(--white) !important;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+.c-sliderDotsControl {
+	@include transforms(skewY(var(--defaultDeg)), center);
+	display: block;
+	position: relative;
+	top: inherit;
+	left: inherit;
+	right: inherit;
+	bottom: inherit;
+	width: auto;
+	.swiper-pagination-bullet {
+		@include transition();
+		@include scale(0.6, center);
+		display: block;
+		width: 48px;
+		height: 8px;
+		background: rgba(255,255,255,0.5);
+		margin: 2px 0 !important;
+		cursor: pointer;
+		border-radius: 0;
+		opacity: 1;
+		&:hover {
+			background: rgba(255,255,255,0.75);
+		}
+		&.swiper-pagination-bullet-active {
+			@include scale(1, center);
+			background: var(--white);
+			margin: 4px 0 !important;
+			border-radius: 0;
+			opacity: 1;
+		}
+	}
+}

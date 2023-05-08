@@ -1,0 +1,30 @@
+.sDefault {
+	display: block;
+	padding: 40px 0;
+	&__head {
+		display: block;
+		padding-bottom: 10px;
+		border-bottom: 1px solid var(--gray2);
+		h2 {
+			@include preset__h2;
+		}
+	}
+	&__content {
+		display: block;
+		padding-top: 10px;
+	}
+
+	&.--toggle {
+		.sDefault__head {
+			cursor: pointer;
+		}
+		.sDefault__content {
+			display: none;
+		}
+		&.is-active {
+			.sDefault__content {
+				display: block;
+			}
+		}
+	}
+}

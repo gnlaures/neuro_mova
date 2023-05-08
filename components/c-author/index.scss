@@ -1,0 +1,37 @@
+:root {
+	--cAuthor__imgSize: 34px;
+	--cAuthor__padLeftCaption: 8px;
+}
+
+.c-author {
+	display: block;
+	a {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		width: fit-content;
+		i {
+			overflow: hidden;
+			border-radius: 50%;
+			display: block;
+			width: var(--cAuthor__imgSize);
+			height: var(--cAuthor__imgSize);
+			img {
+				display: block;
+				height: var(--cAuthor__imgSize);
+				width: var(--cAuthor__imgSize);
+			}
+		}
+		span {
+			@include preset__p__s();
+			@include transition();
+			padding-left: var(--cAuthor__padLeftCaption);
+			font-weight: var(--fw__semiBold);
+		}
+
+		&:hover {
+			color: var(--primary);
+		}
+	}
+}

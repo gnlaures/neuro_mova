@@ -1,0 +1,47 @@
+:root {
+	--c-countdown__paddingBottom: 14px;
+}
+
+.c-countdown {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+	&__num {
+		display: block;
+		position: relative;
+		margin-right: 30px;
+		padding-bottom: var(--c-countdown__paddingBottom);
+		&:after {
+			@include preset__h4;
+			text-align: center;
+			content: ':';
+			display: block;
+			width: 10px;
+			height: calc(100% - var(--c-countdown__paddingBottom));
+			position: absolute;
+			right: -20px;
+			top: 0;
+		}
+		&:last-of-type {
+			&:after {
+				display: none;
+			}
+		}
+		&__main {
+			@include preset__h4;
+		}
+		&__caption {
+			@include preset__p__xs();
+			font-size: 12px;
+
+			position: absolute;
+			bottom: 0;
+		}
+	}
+	&__feedback {
+
+	}
+}

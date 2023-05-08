@@ -1,0 +1,71 @@
+:root {
+	--cCardIcon__iconSize: 100px;
+}
+
+.c-cardIcon {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 25px;
+	border-radius: var(--radius);
+	border: 1px solid var(--white2);
+	&__icon {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin-bottom: 5px;
+		img, svg {
+			display: block;
+			width: var(--cCardIcon__iconSize);
+			height: var(--cCardIcon__iconSize);
+			object-position: center;
+			object-fit: contain;
+		}
+	}
+	&__content {
+		h4 {
+			margin-bottom: 10px;
+		}
+		p {
+			margin-bottom: 10px;
+		}
+	}
+	&__more {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin-top: 10px;
+	}
+	&.--center {
+		justify-content: center;
+		.c-cardIcon__icon {
+			justify-content: center;
+		}
+		.c-defaultContentStyle {
+			* {
+				text-align: center;
+			}
+		}
+		.c-readmore {
+			@extend .--center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	&.--right {
+		justify-content: flex-end;
+		.c-cardIcon__more,
+		.c-cardIcon__icon{
+			justify-content: flex-end;
+		}
+		.c-defaultContentStyle {
+			* {
+				text-align: right;
+			}
+		}
+		.c-readmore {
+			@extend .--right;
+		}
+	}
+}

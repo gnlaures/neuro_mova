@@ -1,0 +1,19 @@
+body.p-home {
+	.l-headerHome {
+		z-index: 1;
+	}
+	.s-movaIntro {
+		z-index: 2;
+		padding-bottom: 20px;
+	}
+	.s-sliderCards {
+		z-index: 3;
+		padding-top: 100px;
+		&.--diagTop {
+			padding-top: 60px;
+		}
+	}
+	.s-instagram {
+		padding-top: 120px;
+	}
+}

@@ -1,0 +1,83 @@
+.c-defaultContentStyle {
+	h1 {@include preset__h1}
+	h2 {@include preset__h2}
+	h3 {@include preset__h3}
+	h4 {@include preset__h4}
+	h5 {@include preset__h5}
+	h6 {@include preset__h6}
+	p {@include preset__p}
+
+	blockquote {
+		@include preset__p();
+		font-style: italic;
+		padding: 25px;
+		border-radius: var(--radius);
+		background: var(--white3);
+		cite {
+			font-weight: var(--fw__bold);
+			display: block;
+			width: 100%;
+			padding-top: 10px;
+		}
+	}
+
+	ul, ol {
+		&:not(.c-responsiveGrid) {
+			li {
+				display: list-item;
+				margin-bottom: 10px;
+				color: var(--primary);
+				list-style-position: inside;
+				p {
+					display: inline;
+				}
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	ul {
+		&:not(.c-responsiveGrid) {
+			li {
+				list-style-type: disc;
+			}
+		}
+	}
+	ol {
+		&:not(.c-responsiveGrid) {
+			li {
+				list-style-type: decimal-leading-zero;
+				font-weight: var(--fw__bold);
+			}
+		}
+	}
+
+	figure {
+		display: block;
+		width: 100%;
+		img {
+			display: block;
+			width: 100%;
+			border-radius: var(--radius);
+		}
+		figcaption {
+			@include preset__p__s();
+			display: block;
+			text-align: center;
+		}
+	}
+
+	&__gallery {
+		a {
+			@extend .u-aspectRatio;
+			@extend .--ratio-1-1;
+			border-radius: var(--radius);
+		}
+	}
+	&__video {
+		@extend .u-aspectRatio;
+		@extend .--ratio-16-9;
+		border-radius: var(--radius);
+	}
+}

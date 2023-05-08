@@ -1,0 +1,38 @@
+@keyframes cScrollLink {
+	from {
+		top: -5px;
+	}
+	to {
+		top: 10px;
+	}
+}
+
+.c-scrollLink {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: fit-content;
+	&__icon {
+		@include flexWidth(20px);
+		position: relative;
+		animation-duration: 1s;
+		animation-name: cScrollLink;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	&__hero {
+		display: block;
+		padding-left: 6px;
+		&__caption {
+			font-size: 14px;
+			font-weight: var(--fw__medium);
+			color: var(--white);
+		}
+		&__call {
+			font-size: 18px;
+			font-weight: var(--fw__bold);
+			color: var(--white);
+		}
+	}
+}

@@ -1,0 +1,12 @@
+.c-error {
+	display: block;
+	padding: 50px;
+	border-radius: var(--radius);
+	border: 1px solid var(--white3);
+	width: 100%;
+	max-width: 480px;
+	margin: 0 auto;
+	* {
+		text-align: center;
+	}
+}

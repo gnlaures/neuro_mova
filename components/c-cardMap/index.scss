@@ -1,0 +1,7 @@
+.c-cardMap {
+	&__map {
+		@extend .u-aspectRatio;
+		@extend .--ratio-16-9;
+		border-radius: var(--radius);
+	}
+}

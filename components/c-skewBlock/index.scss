@@ -1,0 +1,83 @@
+@mixin cSkewBlock__hoverActive() {
+	width: 100%;
+	height: 100%;
+}
+@mixin cSkewBlock__hoverActive__double() {
+	width: 100%;
+	height: 50%;
+}
+
+.c-skewBlock {
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	@include transforms(skewY(var(--defaultDeg)), center);
+	> * {
+		display: block;
+		position: absolute;
+	}
+	&__bg {
+		width: calc(100% - 10px);
+		height: calc(100% - 10px);
+		top: 5px;
+		left: 5px;
+		z-index: 2;
+		border-radius: var(--radius);
+	}
+	&__stroke,
+	&__stroke__b {
+		display: block;
+		transition: width 350ms ease-out, height 275ms ease-in;;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		width: 50px;
+		height: 50px;
+		border-radius: var(--radius);
+	}
+	&__stroke__b {
+		background: var(--third);
+		bottom: inherit;
+		left: inherit;
+		top: 0;
+		right: 0;
+		display: none;
+	}
+
+	&.--primary {
+		.c-skewBlock__stroke {background: var(--secondary);}
+		.c-skewBlock__stroke__b {background: var(--third);}
+		.c-skewBlock__bg {background: var(--primary);}
+	}
+	&.--black {
+		.c-skewBlock__stroke {background: var(--secondary);}
+		.c-skewBlock__stroke__b {background: var(--third);}
+		.c-skewBlock__bg {background: var(--black2);}
+	}
+	&.--secondary {
+		.c-skewBlock__stroke {background: var(--white);}
+		.c-skewBlock__stroke__b {background: var(--white);}
+		.c-skewBlock__bg {background: var(--secondary);}
+	}
+	&.--third {
+		.c-skewBlock__stroke {background: var(--white);}
+		.c-skewBlock__stroke__b {background: var(--white);}
+		.c-skewBlock__bg {background: var(--third);}
+	}
+
+	&:hover {
+		.c-skewBlock__stroke {
+			@include cSkewBlock__hoverActive;
+		}
+		.c-skewBlock__stroke__b {
+			@include cSkewBlock__hoverActive__double;
+		}
+	}
+
+	&.--double {
+		.c-skewBlock__stroke__b {
+			display: block;
+		}
+	}
+}

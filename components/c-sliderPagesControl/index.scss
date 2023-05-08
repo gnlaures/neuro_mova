@@ -1,0 +1,26 @@
+.c-sliderPagesControl {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+	width: 100%;
+	white-space: nowrap;
+	flex-wrap: nowrap;
+	margin-bottom: 25px;
+	span {
+		display: block;
+		color: rgba(255,255,255,0.5);
+		font-weight: var(--fw__bold);
+		font-size: 13px;
+		position: relative;
+	}
+	span.separator {
+		padding: 0 4px;
+	}
+	span.activePage {
+		color: var(--white);
+		font-size: 26px;
+		font-weight: var(--fw__semiBold);
+		top: 3px;
+	}
+}

@@ -1,0 +1,93 @@
+
+
+.c-socialFixed {
+	@include transforms(skewY(var(--defaultDeg)), center);
+	position: fixed;
+	right: 0;
+	top: 50%;
+	margin-top: -160px;
+	z-index: 99;
+	display: block;
+	width: 44px;
+	> li {
+		margin-bottom: 3px;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+	&__item {
+		@include transition();
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		width: fit-content;
+		border-top-left-radius: var(--radius);
+		border-bottom-left-radius: var(--radius);
+		width: 240px;
+		position: relative;
+		left: 0px;
+		i {
+			@include transforms(skewY(var(--defaultDeg__oposite)), center);
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			width: 44px;
+			height: 52px;
+			svg, img {
+				display: block;
+				width: 22px;
+				height: 22px;
+				object-fit: contain;
+			}
+		}
+		span {
+			font-weight: var(--fw__semiBold);
+			font-size: 15px;
+			text-transform: uppercase;
+			color: var(--white);
+			padding-right: 15px;
+			position: relative;
+			top: -1px;
+		}
+
+		&.--facebook {background: var(--facebook__primary);}
+		&.--facebook:hover {background: var(--facebook__secondary);}
+		&.--instagram {background: var(--instagram__primary);}
+		&.--instagram:hover {background: var(--instagram__secondary);}
+		&.--twitter {background: var(--twitter__primary);}
+		&.--twitter:hover {background: var(--twitter__secondary);}
+		&.--linkedin {background: var(--linkedin__primary);}
+		&.--linkedin:hover {background: var(--linkedin__secondary);}
+		&.--youtube {background: var(--youtube__primary);}
+		&.--youtube:hover {background: var(--youtube__secondary);}
+		&.--wpp {background: var(--wpp__primary);}
+		&.--wpp:hover {background: var(--wpp__secondary);}
+		&.--primary {background: var(--primary);}
+		&.--primary:hover {background: var(--primary__dark);}
+		&.--primary__light {background: var(--primary__light);}
+		&.--primary__light:hover {background: var(--primary);}
+		&.--secondary {background: var(--secondary);}
+		&.--secondary:hover {background: var(--secondary__dark);}
+		&.--white {
+			background: var(--white2);
+			svg path {fill: var(--text);}
+		}
+		&.--white:hover {
+			background: var(--gray);
+			svg path {fill: var(--text__dark);}
+		}
+
+		&:hover {
+			left: -190px;
+		}
+	}
+
+
+}
+@media screen and (max-width: 780px) {
+	.c-socialFixed {
+		display: none;
+	}
+}

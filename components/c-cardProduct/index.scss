@@ -1,0 +1,99 @@
+.c-cardProduct {
+	display: block;
+	//max-width: 300px;
+	&__head {
+		display: block;
+		position: relative;
+		&__bg {
+			display: block;
+			width: 100%;
+			height: 86%;
+			position: absolute;
+			top: 7%;
+			left: 0;
+			.c-skewBlock {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&__picture {
+			display: block;
+			width: auto;
+			max-width: 100%;
+			position: relative;
+			z-index: 2;
+			right: 20px;
+			img {
+				@include transition();
+				@include scale(1, center);
+				display: block;
+				width: 100%;
+				height: 308px;
+				object-fit: contain;
+			}
+		}
+		&__tags {
+			display: block;
+			position: absolute;
+			right: 5px;
+			top: -20px;
+			z-index: 3;
+			li {
+				margin-bottom: 4px;
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	&__content {
+		display: block;
+		padding-top: 35px;
+		padding-left: 5px;
+		padding-right: 5px;
+		h3 {
+			@include preset__h3;
+			color: var(--white);
+			text-transform: uppercase;
+			strong {
+				font-weight: var(--fw__bold);
+				display: block;
+			}
+		}
+	}
+
+	&.--primary,
+	&.--generic {
+		.c-skewBlock {
+			@extend .--primary;
+		}
+	}
+
+	&.--secondary,
+	&.--movaOrto {
+		.c-skewBlock {
+			@extend .--secondary;
+		}
+	}
+
+	&.--third,
+	&.--movaUp {
+		.c-skewBlock {
+			@extend .--third;
+		}
+	}
+
+	&:hover {
+		.c-cardProduct__head__picture {
+			img {
+				@include scale(1.075, center);
+			}
+		}
+		.c-skewBlock__stroke {
+			@include cSkewBlock__hoverActive;
+		}
+	}
+}
