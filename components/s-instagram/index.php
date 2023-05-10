@@ -14,7 +14,7 @@
                  data-init-cols="4"
                  data-init-padd="15"
                  data-init-jc="u-jcfs"
-                 data-break-vw="640"
+                 data-break-vw="780"
                  data-break-cols="2"
                  data-break-padds="6"
                  data-break-jc="u-jcfs">

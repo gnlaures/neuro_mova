@@ -74,4 +74,11 @@
 		}
 	}
 }
-
+@media screen and (max-width: 780px) {
+	.s-instagram .c-defaultContentStyle h2 {
+		font-size: 34px;
+	}
+	.s-instagram__head__link {
+		display: none;
+	}
+}

@@ -16,9 +16,9 @@
                  data-init-cols="2"
                  data-init-padd="10"
                  data-init-jc="u-jcfs"
-                 data-break-vw="780"
-                 data-break-cols="2"
-                 data-break-padds="30"
+                 data-break-vw="480"
+                 data-break-cols="1"
+                 data-break-padds="10"
                  data-break-jc="u-jcfs">
                 <div>
                     <?php

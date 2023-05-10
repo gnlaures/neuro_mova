@@ -33,3 +33,91 @@
 		justify-content: space-between;
 	}
 }
+
+// menu
+@media screen and (max-width: 960px) {
+	.l-footer {
+		.c-siteMap {
+			display: block;
+			width: calc(100% - 54px);
+			&__item {
+				display: block;
+				margin-bottom: 25px;
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+				&.is-active {
+					.c-siteMap__list {
+						display: block;
+					}
+				}
+			}
+			&__list {
+				display: none;
+			}
+			.c-defaultContentStyle {
+				padding-right: 50px;
+				position: relative;
+				cursor: pointer;
+				&:after {
+					content: '';
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					justify-content: center;
+					position: absolute;
+					right: 0;
+					top: 50%;
+					margin-top: -25px;
+					width: 50px;
+					height: 50px;
+					background: #000;
+				}
+			}
+		}
+	}
+}
+
+// social
+@media screen and (max-width: 1350px) {
+	.l-footer__social {
+		padding-left: 30px;
+		.c-socialList.--withCaptions.--horizontal {
+			flex-wrap: wrap;
+			li {
+				margin-right: 0;
+				width: 50%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 880px) {
+	.l-footer__contact {
+		display: block;
+	}
+	.l-footer__brand {
+		margin-bottom: 30px;
+	}
+	.l-footer__social {
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 740px) {
+	.l-footer__social {
+		.c-socialList.--withCaptions.--horizontal {
+			li {
+				width: 100%;
+			}
+		}
+	}
+}
+
+// copyright
+@media screen and (max-width: 640px) {
+	.l-footer__copyright {
+		display: block;
+		.c-devSignature {
+			margin-top: 20px;
+		}
+	}
+}

@@ -110,6 +110,13 @@
 		&__brand {
 			@include flexWidth(130px);
 		}
+
+		&.--scrolledDown,
+		&.--scrolledUp {
+			.l-nav__effect {
+				border-width: 184px 690px 0 0;
+			}
+		}
 	}
 }
 @media screen and (max-width: 1180px) {

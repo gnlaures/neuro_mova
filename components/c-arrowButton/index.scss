@@ -36,3 +36,17 @@
 		}
 	}
 }
+@media screen and (max-width: 1480px) {
+	.c-arrowButton {
+		.c-iconBlock {
+			width: 46px;
+			height: 46px;
+			.c-iconBlock__hero {
+				img {
+					width: 16px;
+					height: 16px;
+				}
+			}
+		}
+	}
+}

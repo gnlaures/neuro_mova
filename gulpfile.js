@@ -81,6 +81,7 @@ const control = {
 
             "components/l-nav/index.js",
             "components/l-headerHome/index.js",
+            "components/l-footer/index.js",
         ],
     },
     "dist" : 'dist/'
