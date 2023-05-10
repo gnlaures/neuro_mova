@@ -36,10 +36,10 @@
             break;
 
         // inner
-        case 'about' :
-            $siteConfig['active_page'] = 'pages/about.php';
-            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
-            $siteConfig['body_class'] = 'p-inner p-about';
+        case 'products' :
+            $siteConfig['active_page'] = 'pages/products.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Produtos';
+            $siteConfig['body_class'] = 'p-inner p-products';
             break;
 
         // 404

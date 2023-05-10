@@ -86,6 +86,16 @@
 		}
 	}
 
+	&.--whiteBg {
+		.c-cardProduct {
+			&__content {
+				h3, h3 *, * {
+					color: var(--primary);
+				}
+			}
+		}
+	}
+
 	&:hover {
 		.c-cardProduct__head__picture {
 			img {

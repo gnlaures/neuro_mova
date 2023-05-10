@@ -1,10 +1,10 @@
 <?php
-    $cBreadcrumb = array(
-        array("caption" => "Home", "link" => "#"),
-        array("caption" => "Institucional", "link" => "#"),
-        array("caption" => "História", "link" => "#")
-    );
-?>
+//    $cBreadcrumb = array(
+//        array("caption" => "Home", "link" => "#"),
+//        array("caption" => "Institucional", "link" => "#"),
+//        array("caption" => "História", "link" => "#")
+//    );
+//?>
 
 <div class="c-breadcrumb">
     <ul>

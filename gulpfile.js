@@ -56,10 +56,12 @@ const control = {
             "components/s-sliderCards/index.scss",
             "components/s-instagram/index.scss",
             "components/s-b2b/index.scss",
+            "components/s-productGrid/index.scss",
 
             "components/l-nav/index.scss",
             "components/l-footer/index.scss",
             "components/l-headerHome/index.scss",
+            "components/l-headerInner/index.scss",
 
             "components/p-home/index.scss",
 
