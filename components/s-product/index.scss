@@ -1,0 +1,19 @@
+.s-product {
+	display: block;
+	position: relative;
+	background: var(--white);
+	.u-container {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	&__aside {
+		@include flexWidth(380px);
+		padding: 0 40px;
+	}
+	&__content {
+		flex: 1 1 auto;
+		padding-right: 40px;
+	}
+}

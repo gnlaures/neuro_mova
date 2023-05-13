@@ -199,8 +199,8 @@
         </div>
         <div class="s-productGrid__aside">
             <div class="c-search">
-                <input type="search" placeholder="Pesquisa">
-                <button><?php include('media/icons/icon_product_demo_1.svg');?></button>
+                <input type="text" placeholder="Pesquisa">
+                <button><?php include('media/icons/icon_search.svg');?></button>
             </div>
             <div class="c-toggleItem is-active">
                 <div class="c-toggleItem__head">
