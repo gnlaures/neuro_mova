@@ -51,6 +51,7 @@ const control = {
             "components/c-sliderDotsControl/index.scss",
             "components/c-sliderPagesControl/index.scss",
             "components/c-sitemap/index.scss",
+            "components/c-toggleItem/index.scss",
 
             "components/s-movaIntro/index.scss",
             "components/s-sliderCards/index.scss",
@@ -70,13 +71,12 @@ const control = {
             "components/_defaults/utilities.js",
 
             "components/c-responsiveGrid/index.js",
-            //"components/c-form/index.js",
-            //"components/c-countdown/index.js",
             "components/c-photo/index.js",
             "components/c-copyright/index.js",
             "components/c-hamburguer/index.js",
             "components/c-sliderPagesControl/index.js",
             "components/c-scrollLink/index.js",
+            "components/c-toggleItem/index.js",
 
             "components/s-sliderCards/index.js",
             "components/s-instagram/index.js",

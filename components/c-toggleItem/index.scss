@@ -1,0 +1,70 @@
+.c-toggleItem {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--gray);
+	&__head {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		cursor: pointer;
+		> i {
+			@include transition();
+			@include flexWidth(36px);
+			@include flexHeight(36px);
+			@include rotate(0deg, center);
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			svg, img {
+				display: block;
+				width: 22px;
+				height: 22px;
+				object-fit: contain;
+			}
+		}
+		> h2 {
+			@include transition();
+			@include preset__h2;
+		}
+		> h3 {
+			@include transition();
+			@include preset__h3();
+			font-size: 30px;
+			font-weight: var(--fw__bold);
+			color: var(--text__dark);
+		}
+	}
+	&__content {
+		display: none;
+		padding-top: 10px;
+		.c-defaultContentStyle {
+			* {
+				color: var(--text);
+			}
+		}
+	}
+
+	&.is-active {
+		.c-toggleItem__head {
+			h2, h3 {
+				color: var(--primary);
+			}
+			i {
+				@include rotate(45deg, center);
+			}
+		}
+		.c-toggleItem__content {
+			display: block;
+		}
+	}
+
+	&:last-of-type {
+		border-bottom: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}

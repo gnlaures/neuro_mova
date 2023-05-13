@@ -8,17 +8,7 @@
 <br>
 <br>
 
-<div class="c-toggleItem">
-    <div class="c-toggleItem__head">
-        //defaultContentStyle
-        <i>iconPlus</i>
-    </div>
-    <div class="c-toggleIten__content">
-        //defaultContentStyle <br>
-        //--noTitle <br>
-        //is-active
-    </div>
-</div>
+
 
 <div class="c-cardOpenJob">
     <div class="c-cardOpenJob__check">
@@ -40,16 +30,32 @@
     // include form
 </div>
 
-<div class="c-search">
-    <input type="search">
-    <button>icon</button>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="u-container --componentView">
+    <div class="c-defaultContentStyle">
+        <h4>c-toggleItem</h4>
+    </div>
+    <div class="c-responsiveGrid"
+         data-init-cols="1"
+         data-init-padd="8"
+         data-init-jc="u-jcfs"
+         data-break-vw="780"
+         data-break-cols="2"
+         data-break-padds="30"
+         data-break-jc="u-jcfs">
+        <div>
+            <?php include('components/c-toggleItem/index.php'); ?>
+        </div>
+    </div>
 </div>
 
-
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>

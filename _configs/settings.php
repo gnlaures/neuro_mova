@@ -42,6 +42,12 @@
             $siteConfig['body_class'] = 'p-inner p-products';
             break;
 
+        case 'ronak' :
+            $siteConfig['active_page'] = 'pages/components.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Components';
+            $siteConfig['body_class'] = 'p-inner p-ronak';
+            break;
+
         // 404
         default :
             header("HTTP/1.0 404 Not Found");
