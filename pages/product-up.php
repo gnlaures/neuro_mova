@@ -1,6 +1,6 @@
 <?php
 include('components/l-nav/index.php');
-include('components/l-headerInner/index.php');
+include('components/l-headerProduct/index.php');
 include('components/c-socialFixed/index.php');
 include('components/s-product/index.php');
 

@@ -1,4 +1,4 @@
-<section class="s-product">
+<section class="s-product" id="product">
     <div class="u-container">
         <div class="s-product__content">
             <div class="c-toggleItem is-active">
@@ -6,13 +6,13 @@
                     <?php $cPhoto = array(
                         "modifiers" => "",
                         "figcaption" => "",
-                        "image" => "https://picsum.photos/1920/1080",
+                        "image" => "media/img/product_detail_1.png",
                         "image_alt" => "Foto gerada automaticamente, pode ser uma cidade, um animal, uma pessoa ou algo abstrato",
-                        "image_ratio" => "--ratio-16-9",
-                        "a_href" => "https://picsum.photos/536/354",
+                        "image_ratio" => "--ratio-disabled",
+                        "a_href" => "media/img/product_detail_1.png",
                         "a_target" => "_self",
                         "fancybox" => true,
-                        "fancybox__name" => "nome-da-galeria",
+                        "fancybox__name" => "galeria-produto",
                     );
                     include('components/c-photo/index.php'); ?>
                 </div>
@@ -82,13 +82,13 @@
             <?php $cPhoto = array(
                 "modifiers" => "",
                 "figcaption" => "",
-                "image" => "https://picsum.photos/350/760",
+                "image" => "media/img/product_aside_up.png",
                 "image_alt" => "Foto gerada automaticamente, pode ser uma cidade, um animal, uma pessoa ou algo abstrato",
                 "image_ratio" => "--ratio-disabled",
                 "a_href" => "https://picsum.photos/536/354",
                 "a_target" => "_self",
-                "fancybox" => true,
-                "fancybox__name" => "nome-da-galeria",
+                "fancybox" => false,
+                "fancybox__name" => "",
             );
             include('components/c-photo/index.php'); ?>
             <ul class="c-tagsIconGrid">

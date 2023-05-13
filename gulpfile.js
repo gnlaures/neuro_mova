@@ -64,6 +64,7 @@ const control = {
             "components/l-footer/index.scss",
             "components/l-headerHome/index.scss",
             "components/l-headerInner/index.scss",
+            "components/l-headerProduct/index.scss",
 
             "components/p-home/index.scss",
 
