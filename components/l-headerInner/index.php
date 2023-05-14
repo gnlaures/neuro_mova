@@ -4,7 +4,7 @@
         <div class="l-headerInner__content">
             <div class="u-container">
                 <div class="c-defaultContentStyle">
-                    <h1>Produtos</h1>
+                    <h1><?php echo $lHeaderInner["title"] ?></h1>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
                             "picture" => "media/img/product_demo_movaOrto.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-orto",
                             "tags" => array(
                                 array("modifiers" => "--secondary__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--secondary__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -31,7 +31,7 @@
                             "picture" => "media/img/product_demo_movaUp.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-up",
                             "tags" => array(
                                 array("modifiers" => "--third__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--third__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -46,7 +46,7 @@
                             "picture" => "media/img/product_demo_movaOrto.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-orto",
                             "tags" => array(
                                 array("modifiers" => "--secondary__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--secondary__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -61,7 +61,7 @@
                             "picture" => "media/img/product_demo_movaUp.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-up",
                             "tags" => array(
                                 array("modifiers" => "--third__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--third__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -76,7 +76,7 @@
                             "picture" => "media/img/product_demo_movaOrto.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-orto",
                             "tags" => array(
                                 array("modifiers" => "--secondary__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--secondary__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -91,7 +91,7 @@
                             "picture" => "media/img/product_demo_movaUp.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-up",
                             "tags" => array(
                                 array("modifiers" => "--third__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--third__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -106,7 +106,7 @@
                             "picture" => "media/img/product_demo_movaOrto.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-orto",
                             "tags" => array(
                                 array("modifiers" => "--secondary__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--secondary__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -121,7 +121,7 @@
                             "picture" => "media/img/product_demo_movaUp.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-up",
                             "tags" => array(
                                 array("modifiers" => "--third__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--third__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -136,7 +136,7 @@
                             "picture" => "media/img/product_demo_movaOrto.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-orto",
                             "tags" => array(
                                 array("modifiers" => "--secondary__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--secondary__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -151,7 +151,7 @@
                             "picture" => "media/img/product_demo_movaUp.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-up",
                             "tags" => array(
                                 array("modifiers" => "--third__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--third__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -166,7 +166,7 @@
                             "picture" => "media/img/product_demo_movaOrto.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-orto",
                             "tags" => array(
                                 array("modifiers" => "--secondary__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--secondary__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")
@@ -181,7 +181,7 @@
                             "picture" => "media/img/product_demo_movaUp.png",
                             "picture_alt" => "Faixa Abdominal Elástica Bege",
                             "title" => "<strong>Faixa Abdominal</strong> Elástica Bege",
-                            "href" => "product",
+                            "href" => "product-up",
                             "tags" => array(
                                 array("modifiers" => "--third__light", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização"),
                                 array("modifiers" => "--third__dark", "icon" => "media/icons/icon_product_demo_1.svg", "caption" => "Estabilização")

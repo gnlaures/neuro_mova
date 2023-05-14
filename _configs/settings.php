@@ -51,6 +51,40 @@
             $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Produto Mova Ortopédicos';
             $siteConfig['body_class'] = 'p-inner p-product p-product-orto';
             break;
+        case 'about' :
+            $siteConfig['active_page'] = 'pages/about.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
+            $siteConfig['body_class'] = 'p-inner p-about';
+            break;
+        case 'contact' :
+            $siteConfig['active_page'] = 'pages/contact.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
+            $siteConfig['body_class'] = 'p-inner p-about';
+            break;
+        case 'carrers' :
+            $siteConfig['active_page'] = 'pages/carrers.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
+            $siteConfig['body_class'] = 'p-inner p-about';
+            break;
+        case 'quality' :
+            $siteConfig['active_page'] = 'pages/quality.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
+            $siteConfig['body_class'] = 'p-inner p-about';
+            break;
+        case 'terms-cookies' :
+            $siteConfig['active_page'] = 'pages/terms-cookies.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
+            $siteConfig['body_class'] = 'p-inner p-about';
+        case 'terms-use' :
+            $siteConfig['active_page'] = 'pages/terms-use.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
+            $siteConfig['body_class'] = 'p-inner p-about';
+            break;
+        case 'terms-privacy' :
+            $siteConfig['active_page'] = 'pages/terms-privacy.php';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
+            $siteConfig['body_class'] = 'p-inner p-about';
+            break;
 
         case 'ronak' :
             $siteConfig['active_page'] = 'pages/components.php';

@@ -8,11 +8,11 @@
             ?>
         </div>
         <ul class="l-nav__menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Carreiras</a></li>
+            <li><a href="home">Home</a></li>
+            <li><a href="products">Produtos</a></li>
+            <li><a href="about">Sobre</a></li>
+            <li><a href="contact">Contato</a></li>
+            <li><a href="carrers">Carreiras</a></li>
             <li>
                 <?php $cBtn = array(
                     "modifiers" => "--primary --l",
