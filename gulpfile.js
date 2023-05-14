@@ -67,6 +67,7 @@ const control = {
             "components/l-headerProduct/index.scss",
 
             "components/p-home/index.scss",
+            "components/p-inner/index.scss",
 
         ],
         "scripts": [
@@ -79,6 +80,7 @@ const control = {
             "components/c-sliderPagesControl/index.js",
             "components/c-scrollLink/index.js",
             "components/c-toggleItem/index.js",
+            "components/c-tagsIconGrid/index.js",
 
             "components/s-sliderCards/index.js",
             "components/s-instagram/index.js",

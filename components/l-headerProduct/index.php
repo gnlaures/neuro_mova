@@ -1,4 +1,4 @@
-<header class="l-headerProduct --movaUp">
+<header class="l-headerProduct">
     <div class="l-headerProduct__hero">
         <div class="l-headerProduct__effect"></div>
         <div class="l-headerProduct__bg">

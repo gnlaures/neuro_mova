@@ -43,12 +43,12 @@
             break;
         case 'product-up' :
             $siteConfig['active_page'] = 'pages/product-up.php';
-            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Produto';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Produto Mova Up';
             $siteConfig['body_class'] = 'p-inner p-product p-product-up';
             break;
         case 'product-orto' :
             $siteConfig['active_page'] = 'pages/product-orto.php';
-            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Produto';
+            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Produto Mova Ortopédicos';
             $siteConfig['body_class'] = 'p-inner p-product p-product-orto';
             break;
 

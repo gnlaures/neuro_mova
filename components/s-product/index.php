@@ -91,38 +91,67 @@
                 "fancybox__name" => "",
             );
             include('components/c-photo/index.php'); ?>
-            <ul class="c-tagsIconGrid">
-                <li>
-                    <?php
-                    $cIconBlock = array(
-                        "modifiers" => "--secondary --l",
-                        "icon" => "media/icons/icon_product_demo_1.svg",
-                        "title" => "Estabilidade",
-                    );
-                    include('components/c-iconBlock/index.php');
-                    ?>
-                </li>
-                <li>
-                    <?php
-                    $cIconBlock = array(
-                        "modifiers" => "--secondary --l",
-                        "icon" => "media/icons/icon_product_demo_1.svg",
-                        "title" => "Estabilidade",
-                    );
-                    include('components/c-iconBlock/index.php');
-                    ?>
-                </li>
-                <li>
-                    <?php
-                    $cIconBlock = array(
-                        "modifiers" => "--secondary --l",
-                        "icon" => "media/icons/icon_product_demo_1.svg",
-                        "title" => "Estabilidade",
-                    );
-                    include('components/c-iconBlock/index.php');
-                    ?>
-                </li>
-            </ul>
+            <div class="c-tagsIconGrid">
+                <ul class="c-responsiveGrid"
+                     data-init-cols="2"
+                     data-init-padd="4"
+                     data-init-jc="u-jcc"
+                     data-break-vw="780"
+                     data-break-cols="1"
+                     data-break-padds="10"
+                     data-break-jc="u-jcc">
+                    <li>
+                        <?php
+                        $cIconBlock = array(
+                            "modifiers" => "--secondary --l",
+                            "icon" => "media/icons/icon_product_demo_1.svg",
+                            "title" => "Estabilidade",
+                        );
+                        include('components/c-iconBlock/index.php');
+                        ?>
+                    </li>
+                    <li>
+                        <?php
+                        $cIconBlock = array(
+                            "modifiers" => "--secondary --l",
+                            "icon" => "media/icons/icon_product_demo_1.svg",
+                            "title" => "Estabilidade",
+                        );
+                        include('components/c-iconBlock/index.php');
+                        ?>
+                    </li>
+                    <li>
+                        <?php
+                        $cIconBlock = array(
+                            "modifiers" => "--secondary --l",
+                            "icon" => "media/icons/icon_product_demo_1.svg",
+                            "title" => "Estabilidade",
+                        );
+                        include('components/c-iconBlock/index.php');
+                        ?>
+                    </li>
+                    <li>
+                        <?php
+                        $cIconBlock = array(
+                            "modifiers" => "--secondary --l",
+                            "icon" => "media/icons/icon_product_demo_1.svg",
+                            "title" => "Estabilidade",
+                        );
+                        include('components/c-iconBlock/index.php');
+                        ?>
+                    </li>
+                    <li>
+                        <?php
+                        $cIconBlock = array(
+                            "modifiers" => "--secondary --l",
+                            "icon" => "media/icons/icon_product_demo_1.svg",
+                            "title" => "Estabilidade",
+                        );
+                        include('components/c-iconBlock/index.php');
+                        ?>
+                    </li>
+                </ul>
+            </div>
             <div class="c-toggleItem is-active">
                 <div class="c-toggleItem__head">
                     <h3>Categorias</h3>
