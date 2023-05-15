@@ -1,0 +1,25 @@
+.s-contact {
+	background: var(--white);
+	display: block;
+	padding-top: 60px;
+	.u-container {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+		padding-bottom: 40px;
+	}
+	&__form {
+		@include flexWidth(50%);
+		padding-right: 30px;
+	}
+	&__infos {
+		@include flexWidth(50%);
+		padding-left: 30px;
+		border-left: 1px solid var(--gray);
+	}
+
+	.c-cardMap {
+		margin-bottom: 40px;
+	}
+}

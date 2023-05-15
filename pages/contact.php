@@ -1,22 +1,12 @@
 <?php
 include('components/l-nav/index.php');
+
+$lHeaderInner = array("title" => "Contato");
 include('components/l-headerInner/index.php');
+
 include('components/c-socialFixed/index.php');
 
-?>
-
-<section class="s-contact">
-    <div class="u-container">
-        <div class="s-contact__form">
-            // form
-        </div>
-        <div class="s-contact__infos">
-            <?php include('components/c-cardCompany/index.php'); ?>
-        </div>
-    </div>
-</section>
-
-<?php
+include('components/s-contact/index.php');
 
 $sSliderCards = array("modifiers" => "--diagTop", "title" => "Lançamentos", "slider" => "slider_lancamentos.php");
 include('components/s-sliderCards/index.php');

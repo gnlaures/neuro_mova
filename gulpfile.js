@@ -59,6 +59,7 @@ const control = {
             "components/s-b2b/index.scss",
             "components/s-productGrid/index.scss",
             "components/s-product/index.scss",
+            "components/s-contact/index.scss",
 
             "components/l-nav/index.scss",
             "components/l-footer/index.scss",

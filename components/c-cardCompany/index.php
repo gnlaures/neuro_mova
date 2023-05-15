@@ -1,12 +1,5 @@
 <div class="c-cardCompany">
 
-    <?php $cBrand = array(
-        "modifiers" => "",
-        "style" => "",
-        "href" => "#",
-    );
-    include('components/c-brand/index.php'); ?>
-
     <?php $cSocialList = array(
         "modifiers" => "",
         "social_items" => array(
@@ -20,6 +13,7 @@
 
     <div class="c-defaultContentStyle">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut autem culpa cumque dolores doloribus ducimus eaque, eius ipsam maxime nobis porro possimus provident soluta suscipit voluptas. Eveniet fuga libero molestiae.</p>
+        <br>
     </div>
 
     <?php $cReadmore = array(
