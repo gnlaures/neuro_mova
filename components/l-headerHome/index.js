@@ -18,4 +18,7 @@ const swiper = new Swiper('.l-headerHome__slider', {
             updateSliderPageInfo(document.querySelector(".l-headerHome"));
         },
     },
+    autoplay: {
+        delay: 20000,
+    },
 });

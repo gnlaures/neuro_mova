@@ -5,14 +5,8 @@ include('components/c-socialFixed/index.php');
 
 ?>
 
-<section class="s-contact">
+<section class="s-quality">
     <div class="u-container">
-        <div class="s-contact__form">
-            // form
-        </div>
-        <div class="s-contact__infos">
-            // contactInfos
-        </div>
     </div>
 </section>
 

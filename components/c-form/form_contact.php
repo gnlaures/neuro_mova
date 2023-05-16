@@ -1,29 +1,29 @@
-<form action="#" class="c-form" id="form__boilerplate">
+<form action="#" class="c-form" id="form_contact">
     <fieldset>
         <div class="c-form__hero">
             <div class="c-form__group u-fw100">
                 <div class="c-field u-fw100 --default">
                     <div class="c-field__head">
-                        <label for="form__boilerplate__iptText">Nome</label>
+                        <label for="form__boilerplate__name">Nome</label>
                     </div>
                     <div class="c-field__content">
-                        <input type="text" placeholder="Placeholder" id="form__boilerplate__iptText">
+                        <input type="text" placeholder="Placeholder" id="form__boilerplate__name">
                     </div>
                 </div>
                 <div class="c-field u-fw100 --default">
                     <div class="c-field__head">
-                        <label for="form__boilerplate__iptText">E-mail</label>
+                        <label for="form__boilerplate__email">E-mail</label>
                     </div>
                     <div class="c-field__content">
-                        <input type="text" placeholder="Placeholder" id="form__boilerplate__iptText">
+                        <input type="email" placeholder="Placeholder" id="form__boilerplate__email">
                     </div>
                 </div>
                 <div class="c-field u-fw100 --default">
                     <div class="c-field__head">
-                        <label for="form__boilerplate__iptText">Telefone</label>
+                        <label for="form__boilerplate__phone">Telefone</label>
                     </div>
                     <div class="c-field__content">
-                        <input type="text" placeholder="Placeholder" id="form__boilerplate__iptText">
+                        <input type="tel" placeholder="Placeholder" id="form__boilerplate__phone">
                     </div>
                 </div>
                 <div class="c-field u-fw100 --default">

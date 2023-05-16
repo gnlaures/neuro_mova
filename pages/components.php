@@ -10,21 +10,7 @@
 
 
 
-<div class="c-cardOpenJob">
-    <div class="c-cardOpenJob__check">
-        // check
-    </div>
-    <div class="c-cardOpenJob__title">
-        // title
-    </div>
-    <div class="c-cardOpenJob__more">
-        // readmore
-    </div>
-    <div class="c-cardOpenJob__infos">
-        // defaultStyle
-        // button
-    </div>
-</div>
+
 
 <div class="c-formCarrer">
     // include form
