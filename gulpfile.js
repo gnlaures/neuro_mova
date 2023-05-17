@@ -51,7 +51,9 @@ const control = {
             "components/c-arrowButton/index.scss",
             "components/c-sliderDotsControl/index.scss",
             "components/c-sliderPagesControl/index.scss",
+            "components/c-tagsIconGrid/index.scss",
             "components/c-sitemap/index.scss",
+            "components/c-productsAside/index.scss",
             "components/c-toggleItem/index.scss",
 
             "components/s-movaIntro/index.scss",
@@ -61,6 +63,7 @@ const control = {
             "components/s-productGrid/index.scss",
             "components/s-product/index.scss",
             "components/s-contact/index.scss",
+            "components/s-terms/index.scss",
 
             "components/l-nav/index.scss",
             "components/l-footer/index.scss",

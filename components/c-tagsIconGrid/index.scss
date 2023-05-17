@@ -1,0 +1,15 @@
+.c-tagsIconGrid {
+	a {
+		.c-iconBlock {
+			@include transition();
+		}
+		&:hover {
+			.c-iconBlock.--secondary {
+				background: var(--secondary__dark);
+			}
+			.c-iconBlock.--primary {
+				background: var(--primary__dark);
+			}
+		}
+	}
+}

@@ -25,7 +25,7 @@
 				width: 22px;
 				height: 22px;
 				path {
-					fill: var(--white);
+					//fill: var(--white);
 				}
 			}
 		}
@@ -46,7 +46,7 @@
 		&.--youtube:hover i {background: var(--youtube__secondary);}
 		&.--wpp i {background: var(--wpp__primary);}
 		&.--wpp:hover i {background: var(--wpp__secondary);}
-		&.--primary i {background: var(--primary);}
+		&.--primary i {background: var(--primary__light);}
 		&.--primary:hover i {background: var(--primary__dark);}
 		&.--secondary i {background: var(--secondary);}
 		&.--secondary:hover i {background: var(--secondary__dark);}
