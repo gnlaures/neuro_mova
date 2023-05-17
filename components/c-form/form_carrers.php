@@ -78,7 +78,7 @@
         </div>
     </fieldset>
 
-    <div class="c-form__feedback u-dnone">
+    <div class="c-form__feedback">
         <?php $feedbackForm = array(
             'caption_ok' => 'Currículo enviado sucesso.',
             'caption_fail' => 'Currículo não enviado, tente novamente.',

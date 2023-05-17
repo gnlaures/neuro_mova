@@ -1,0 +1,13 @@
+.c-formFeedback {
+	&__status {
+		@extend .c-defaultContentStyle;
+		text-align: center;
+		display: none;
+		* {
+			text-align: center;
+		}
+		&.is-active {
+			display: block;
+		}
+	}
+}

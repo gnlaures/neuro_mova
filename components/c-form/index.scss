@@ -3,7 +3,7 @@
 	textarea,
 	input[type=text],
 	input[type=email],
-	input[type=phone]{
+	input[type=tel]{
 		@content
 	}
 }
@@ -12,7 +12,7 @@
 	textarea:focus,
 	input[type=text]:focus,
 	input[type=email]:focus,
-	input[type=phone]:focus{
+	input[type=tel]:focus{
 		@content
 	}
 }
@@ -212,6 +212,8 @@
 
 .c-form {
 	@include calcWidthForPositionNegative(var(--field__gap__negative));
+	display: block;
+	position: relative;
 	fieldset {
 		display: block;
 		width: 100%;
@@ -240,8 +242,24 @@
 		display: block;
 		width: 100%;
 	}
-	&__feedbacks {
-		display: block;
+	&__feedback {
+		border-radius: 10px;
+		display: none;
 		width: 100%;
+		height: 100%;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: rgba(240,240,240,0.85);
+		padding: 30px;
+	}
+
+	&.is-feedback {
+		.c-form__feedback {
+			display: flex;
+		}
 	}
 }

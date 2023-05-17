@@ -7,7 +7,7 @@
 ?>
 
 <div class="c-formFeedback">
-    <div class="c-formFeedback__status --ok"><span><?php echo $feedbackForm["caption_ok"] ?></span></div>
-    <div class="c-formFeedback__status --fail"><span><?php echo $feedbackForm["caption_fail"] ?></span></div>
-    <div class="c-formFeedback__status --trying"><span><?php echo $feedbackForm["caption_trying"] ?></span></div>
+    <div class="c-formFeedback__status --ok"><p><?php echo $feedbackForm["caption_ok"] ?></p></div>
+    <div class="c-formFeedback__status --fail"><p><?php echo $feedbackForm["caption_fail"] ?></p></div>
+    <div class="c-formFeedback__status --trying"><p><?php echo $feedbackForm["caption_trying"] ?></p></div>
 </div>

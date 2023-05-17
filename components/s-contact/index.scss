@@ -23,3 +23,19 @@
 		margin-bottom: 40px;
 	}
 }
+
+@media screen and (max-width: 940px) {
+	.s-contact__infos,
+	.s-contact__form {
+		@include flexWidth(100%);
+		padding-left: 0;
+		padding-right: 0;
+		border-left: 0;
+	}
+	.s-contact__form {
+		margin-bottom: 50px;
+	}
+	.s-contact .u-container {
+		flex-wrap: wrap;
+	}
+}

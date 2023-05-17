@@ -22,6 +22,7 @@ const control = {
             "components/c-btn/index.scss",
 
             "components/c-form/index.scss",
+            "components/c-formFeedback/index.scss",
             "components/c-defaultContentStyle/index.scss",
             "components/c-breadcrumb/index.scss",
             "components/c-countdown/index.scss",
@@ -75,6 +76,7 @@ const control = {
             "components/_defaults/utilities.js",
 
             "components/c-responsiveGrid/index.js",
+            "components/c-form/index.js",
             "components/c-photo/index.js",
             "components/c-copyright/index.js",
             "components/c-hamburguer/index.js",
