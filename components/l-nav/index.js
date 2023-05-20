@@ -24,3 +24,20 @@ function scrollEffect() {
 }
 $(window).on('scroll', function() {scrollEffect()})
 $(window).on('load', function() {scrollEffect()})
+
+// mobile
+$('.l-nav .c-hamburguer').on('click', function () {
+    $('.l-navMobile').addClass('is-active');
+    $('.l-navMobile .c-hamburguer').addClass('is-active');
+});
+
+$('.l-navMobile .c-hamburguer').on('click', function () {
+    $('.l-navMobile').removeClass('is-active');
+    $('.l-nav .c-hamburguer').removeClass('is-active');
+})
+
+$('.l-navMobile__mask').on('click', function () {
+    $('.l-navMobile').removeClass('is-active');
+    $('.l-navMobile .c-hamburguer').removeClass('is-active');
+    $('.l-nav .c-hamburguer').removeClass('is-active');
+})
