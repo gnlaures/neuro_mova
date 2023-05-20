@@ -24,4 +24,27 @@
 		padding-bottom: 60px;
 	}
 }
-
+@media screen and (max-width: 920px) {
+	.s-productGrid {
+		.u-container {
+			flex-wrap: wrap-reverse;
+		}
+		&__aside {
+			@include flexWidth(100%);
+			margin-bottom: 80px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid var(--gray);
+		}
+		&__content {
+			@include flexWidth(100%);
+			padding-right: 0;
+		}
+	};
+}
+@media screen and (max-width: 480px) {
+	.s-productGrid {
+		.u-container {
+			max-width: 420px;
+		}
+	}
+}

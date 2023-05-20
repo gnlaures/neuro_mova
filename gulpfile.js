@@ -90,6 +90,7 @@ const control = {
             "components/c-tagsIconGrid/index.js",
 
             "components/s-sliderCards/index.js",
+            "components/s-productGrid/index.js",
             "components/s-instagram/index.js",
 
             "components/l-nav/index.js",

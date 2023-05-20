@@ -6,10 +6,10 @@
                      data-init-cols="3"
                      data-init-padd="6"
                      data-init-jc="u-jcfs"
-                     data-break-vw="780"
-                     data-break-cols="2"
-                     data-break-padds="30"
-                     data-break-jc="u-jcfs">
+                     data-break-vw="1180, 920, 780, 480"
+                     data-break-cols="2, 3, 2, 1"
+                     data-break-padds="6, 6, 5, 15"
+                     data-break-jc="u-jcfs, u-jcfs, u-jcfs, u-jcfs">
                     <div>
                         <?php $cCardProduct = array(
                             "modifiers" => "--secondary --whiteBg",
