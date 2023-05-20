@@ -97,8 +97,8 @@
                      data-init-padd="4"
                      data-init-jc="u-jcc"
                      data-break-vw="780"
-                     data-break-cols="1"
-                     data-break-padds="10"
+                     data-break-cols="2"
+                     data-break-padds="4"
                      data-break-jc="u-jcc">
                     <li>
                         <?php
