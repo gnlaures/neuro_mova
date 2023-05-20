@@ -12,6 +12,18 @@
                     <h1>Faixa Abdominal Elástica Bege</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, nobis non quae rem similique tempore. Aliquam aut commodi consectetur dipisci, impedit e tur adipisicing elit. Eius, nobis non quae rem similique tempore. Aliquam aut commodi consectetur dipisci, impedit, voluptatum.</p>
                 </div>
+                <?php $cPhoto = array(
+                    "modifiers" => "",
+                    "figcaption" => "",
+                    "image" => "media/img/product_aside_up.png",
+                    "image_alt" => "Foto gerada automaticamente, pode ser uma cidade, um animal, uma pessoa ou algo abstrato",
+                    "image_ratio" => "--ratio-disabled",
+                    "a_href" => "https://picsum.photos/536/354",
+                    "a_target" => "_self",
+                    "fancybox" => false,
+                    "fancybox__name" => "",
+                );
+                include('components/c-photo/index.php'); ?>
             </div>
         </div>
         <div class="l-headerProduct__scroll">

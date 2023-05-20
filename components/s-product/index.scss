@@ -98,3 +98,26 @@
 }
 
 
+@media screen and (max-width: 920px) {
+	.s-product {
+		.u-container {
+			flex-wrap: wrap;
+		}
+		&__content {
+			@include flexWidth(100%);
+			padding-right: 0;
+		}
+		&__aside {
+			@include flexWidth(100%);
+			margin-top: 0;
+			.c-photo {
+				display: none;
+			}
+			.c-tagsIconGrid {
+				max-width: 300px;
+				margin: 0 auto;
+				padding-top: 100px;
+			}
+		}
+	}
+}
