@@ -14,42 +14,42 @@
             <ul class="c-productsFilter">
                 <li>
                     <a href="#">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>Troncos e Ombros</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>Cabeça e pescoço</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>Joelho e coxa</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>punho e mão</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>Tornozelo e pé</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="is-active">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>braço e antebraço</span>
                     </a>
@@ -68,21 +68,21 @@
             <ul class="c-productsFilter">
                 <li>
                     <a href="#">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>Ortopédicos</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>Ortopédicos Premium</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_product_demo_1.svg", "title" => "Estabilidade");
+                        <?php $cIconBlock = array("modifiers" => "--light", "icon" => "media/icons/icon_category_dark.svg", "title" => "Estabilidade");
                         include('components/c-iconBlock/index.php'); ?>
                         <span>Fitness</span>
                     </a>

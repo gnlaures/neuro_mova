@@ -17,7 +17,7 @@
                 <?php $cBtn = array(
                     "modifiers" => "--primary --l",
                     "caption" => "Lojista Compre Aqui",
-                    "icon" => "media/icons/icon_attach.svg",
+                    "icon" => "media/icons/icon_cart.svg",
                     "tag" => "a",
                     "href" => "products",
                     "a_title" => "Lojista Compre Aqui");

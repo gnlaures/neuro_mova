@@ -66,11 +66,6 @@
             $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
             $siteConfig['body_class'] = 'p-inner p-about';
             break;
-        case 'quality' :
-            $siteConfig['active_page'] = 'pages/quality.php';
-            $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';
-            $siteConfig['body_class'] = 'p-inner p-about';
-            break;
         case 'terms-cookies' :
             $siteConfig['active_page'] = 'pages/terms-cookies.php';
             $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Sobre';

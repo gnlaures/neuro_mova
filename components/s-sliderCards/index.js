@@ -70,3 +70,26 @@ var sSliderCards__categorias = new Swiper(".js-swiperProductSlider__categories",
         }
     }
 });
+
+var sSliderCards__quality = new Swiper(".js-swiperAboutSlider__quality", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+        nextEl: '.js-swiperAboutSlider__quality .c-arrowButton.--right',
+        prevEl: '.js-swiperAboutSlider__quality .c-arrowButton.--left',
+    },
+    breakpoints: {
+        800: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+        },
+        1260: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+        }
+    }
+});

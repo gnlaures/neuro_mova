@@ -77,9 +77,11 @@
 				}
 			}
 		}
-	}
-	&__cta {
-
+		.c-btn {
+			svg path {
+				stroke-width: 4px;
+			}
+		}
 	}
 
 	&.--scrolledDown,

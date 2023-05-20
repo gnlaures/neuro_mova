@@ -5,7 +5,7 @@
                 <h2>Instagram</h2>
             </div>
             <a href="#" class="s-instagram__head__link">
-                <?php include('media/icons/icon_product_demo_1.svg');?>
+                <?php include('media/icons/icon_social_insta.svg');?>
                 <span>movaoficial</span>
             </a>
         </div>

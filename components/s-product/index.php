@@ -114,7 +114,17 @@
                         <?php
                         $cIconBlock = array(
                             "modifiers" => "--secondary --l",
-                            "icon" => "media/icons/icon_product_demo_1.svg",
+                            "icon" => "media/icons/icon_product_demo_2.svg",
+                            "title" => "Estabilidade",
+                        );
+                        include('components/c-iconBlock/index.php');
+                        ?>
+                    </li>
+                    <li>
+                        <?php
+                        $cIconBlock = array(
+                            "modifiers" => "--secondary --l",
+                            "icon" => "media/icons/icon_product_demo_3.svg",
                             "title" => "Estabilidade",
                         );
                         include('components/c-iconBlock/index.php');
@@ -134,17 +144,7 @@
                         <?php
                         $cIconBlock = array(
                             "modifiers" => "--secondary --l",
-                            "icon" => "media/icons/icon_product_demo_1.svg",
-                            "title" => "Estabilidade",
-                        );
-                        include('components/c-iconBlock/index.php');
-                        ?>
-                    </li>
-                    <li>
-                        <?php
-                        $cIconBlock = array(
-                            "modifiers" => "--secondary --l",
-                            "icon" => "media/icons/icon_product_demo_1.svg",
+                            "icon" => "media/icons/icon_product_demo_2.svg",
                             "title" => "Estabilidade",
                         );
                         include('components/c-iconBlock/index.php');

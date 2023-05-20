@@ -13,17 +13,19 @@
 
 	&__item {
 		i {
+			@include transforms(skewY(var(--defaultDeg)), center);
 			@include transition();
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			width: 48px;
 			height: 48px;
-			border-radius: 50%;
+			border-radius: var(--radius);
 			svg {
+				@include transforms(skewY(var(--defaultDeg__oposite)), center);
 				display: block;
-				width: 22px;
-				height: 22px;
+				width: 26px;
+				height: 26px;
 				path {
 					//fill: var(--white);
 				}
