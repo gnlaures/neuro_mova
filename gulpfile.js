@@ -65,6 +65,7 @@ const control = {
             "components/s-contact/index.scss",
             "components/s-terms/index.scss",
             "components/s-about/index.scss",
+            "components/s-carrers/index.scss",
 
             "components/l-nav/index.scss",
             "components/l-footer/index.scss",
@@ -91,6 +92,7 @@ const control = {
 
             "components/s-sliderCards/index.js",
             "components/s-productGrid/index.js",
+            "components/s-carrers/index.js",
             "components/s-instagram/index.js",
 
             "components/l-nav/index.js",

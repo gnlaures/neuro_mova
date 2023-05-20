@@ -1,0 +1,73 @@
+.s-carrers {
+	display: block;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	background: var(--white);
+	.c-defaultContentStyle {
+		max-width: 780px;
+	}
+
+	&__openJobs {
+		padding: 80px 0;
+	}
+}
+
+.c-cardOpenJob {
+	border-bottom: 1px solid var(--gray);
+	&__head {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		padding: 20px 0;
+		cursor: pointer;
+	}
+	&__title {
+		flex: 1 1 auto;
+		padding-right: 30px;
+		* {
+			color: var(--text__dark) !important;
+		}
+		&:hover {
+			* {
+				color: var(--primary);
+			}
+		}
+	}
+	&__more {
+		@include flexWidth(194px);
+	}
+
+	&__infos {
+		display: none;
+		border-left: 1px solid var(--gray);
+		padding-left: 30px;
+	}
+	&__selectedJobList {
+		background: var(--white3);
+		border: 1px solid var(--white3);
+		border-radius: 20px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 5px;
+		overflow: hidden;
+		li {
+			padding: 5px 15px;
+			background: var(--gray);
+			margin-right: 5px;
+			border-radius: 20px;
+			p {
+				@include preset__p__s();
+			}
+		}
+	}
+	&.is-active {
+		.c-cardOpenJob__infos {
+			display: block;
+			padding-bottom: 30px
+		}
+	}
+}

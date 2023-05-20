@@ -158,6 +158,10 @@
 				cursor: pointer;
 			}
 			&__fileName {
+				border-width: var(--field__border__w) !important;
+				border-radius: var(--field__radius) !important;
+				border-color: transparent !important;
+				background: var(--white3) !important;
 				position: relative;
 				z-index: 1;
 			}
@@ -171,7 +175,7 @@
 				margin-top: -10px;
 				right: 20px;
 				z-index: 2;
-				background-image: url("../../assets/media/icons/icon_file.svg");
+				background-image: url("../../media/icons/icon_attach.svg");
 				background-repeat: no-repeat;
 				background-position: center;
 				background-size: contain;

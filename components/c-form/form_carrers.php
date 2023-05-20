@@ -2,7 +2,7 @@
     <fieldset>
         <div class="c-form__hero">
             <div class="c-form__group u-fw100">
-                <div class="c-field u-fw100 --default">
+                <div class="c-field u-fw40 --default">
                     <div class="c-field__head">
                         <label for="form__carrers__name">Nome</label>
                     </div>
@@ -10,7 +10,7 @@
                         <input type="text" placeholder="Placeholder" id="form__carrers__name">
                     </div>
                 </div>
-                <div class="c-field u-fw100 --default">
+                <div class="c-field u-fw30 --default">
                     <div class="c-field__head">
                         <label for="form__carrers__email">E-mail</label>
                     </div>
@@ -18,7 +18,7 @@
                         <input type="email" placeholder="Placeholder" id="form__carrers__email">
                     </div>
                 </div>
-                <div class="c-field u-fw100 --default">
+                <div class="c-field u-fw30 --default">
                     <div class="c-field__head">
                         <label for="form__carrers__phone">Telefone</label>
                     </div>
@@ -46,19 +46,20 @@
                         </ul>
                     </div>
                 </div>
-                <div class="c-field u-fw100 --default">
+                <div class="c-field u-fw50 --file">
                     <div class="c-field__head">
                         <label for="form__carrers__phone">Anexar Currículo</label>
                     </div>
                     <div class="c-field__content">
-                        <input type="file" placeholder="Selecionar arquivo">
+                        <input type="file" class="c-field__content__fileInput js-field__attach" placeholder="">
+                        <input type="text" class="c-field__content__fileName js-field__text" placeholder="Placeholder">
                     </div>
                 </div>
                 <div class="c-field u-fw100 --default --check">
                     <div class="c-field__content">
                         <div class="c-field__content__check">
                             <input type="checkbox" id="form__carrers__check1">
-                            <label for="form__carrers__check1">Afirmo que li as políticas de <a href="#">prvacidade</a>, <a href="#">cookies</a> e <a href="#">termos de uso</a></label>
+                            <label for="form__carrers__check1">Afirmo que li as políticas de <a href="#">privacidade</a>, <a href="#">cookies</a> e <a href="#">termos de uso</a></label>
                         </div>
                     </div>
                 </div>

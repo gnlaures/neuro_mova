@@ -6,6 +6,15 @@ $('.js-send__cFormContact').on('click', function(e) {
     $(this).closest('.c-form').find('.c-formFeedback__status.--trying').addClass('is-active');
 })
 
+// input type file
+const cForm__attach = document.querySelectorAll('.c-form .js-field__attach');
+cForm__attach.forEach((input) => {
+    input.addEventListener('change', function () {
+        let t = input.value.split('fakepath')[1];
+        input.closest('.--file').querySelectorAll('.js-field__text')[0].value = t
+    })
+})
+
 
 
 // const cForm = document.querySelectorAll('.c-form');
