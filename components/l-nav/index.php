@@ -1,4 +1,4 @@
-<nav class="l-nav">
+<nav class="l-nav" data-aos="fade-down">
     <div class="l-nav__effect"></div>
     <div class="l-nav__main">
         <div class="l-nav__brand">

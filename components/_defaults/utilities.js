@@ -18,3 +18,5 @@ function goToSection__scroll(elScrollDestiny, distanceIfScrollGoingToUp, distanc
         }, delay);
     }
 }
+
+AOS.init();

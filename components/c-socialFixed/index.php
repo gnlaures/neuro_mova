@@ -1,4 +1,4 @@
-<ul class="c-socialFixed">
+<ul class="c-socialFixed" data-aos="fade-left">
     <li>
         <a href="#" class="c-socialFixed__item --wpp">
             <i><img src="media/icons/icon_social_wpp.svg" alt=""></i>

@@ -1,4 +1,4 @@
-<footer class="l-footer">
+<footer class="l-footer" data-aos="fade-up">
     <div class="u-container">
         <div class="l-footer__spacer"></div>
         <div class="l-footer__menu">

@@ -1,4 +1,4 @@
-<section class="s-instagram">
+<section class="s-instagram" data-aos="fade-up">
     <div class="u-container">
         <div class="s-instagram__head">
             <div class="c-defaultContentStyle">

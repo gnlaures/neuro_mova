@@ -1,4 +1,4 @@
-<div class="c-error">
+<div class="c-error" data-aos="fade-up">
     <div class="c-defaultContentStyle">
         <h2>404</h2>
         <br>

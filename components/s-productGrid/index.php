@@ -1,6 +1,6 @@
 <section class="s-productGrid">
     <div class="u-container">
-        <div class="s-productGrid__content">
+        <div class="s-productGrid__content" data-aos="fade-up">
             <div class="s-productGrid__content__grid">
                 <div class="c-responsiveGrid"
                      data-init-cols="3"
@@ -197,7 +197,7 @@
                 include('components/c-pagination/index.php'); ?>
             </div>
         </div>
-        <div class="s-productGrid__aside">
+        <div class="s-productGrid__aside" data-aos="fade-up">
             <?php include('components/c-productsAside/index.php'); ?>
         </div>
     </div>

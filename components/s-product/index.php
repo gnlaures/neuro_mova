@@ -1,6 +1,6 @@
 <section class="s-product" id="product">
     <div class="u-container">
-        <div class="s-product__content">
+        <div class="s-product__content" data-aos="fade-up">
             <div class="c-toggleItem is-active">
                 <div class="c-toggleItem__content">
                     <?php $cPhoto = array(
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-        <div class="s-product__aside">
+        <div class="s-product__aside" data-aos="fade-up">
             <?php $cPhoto = array(
                 "modifiers" => "",
                 "figcaption" => "",

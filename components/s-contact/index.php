@@ -1,4 +1,4 @@
-<section class="s-contact">
+<section class="s-contact" data-aos="fade-up">
     <div class="u-container">
         <div class="s-contact__form">
             <?php include('components/c-form/form_contact.php'); ?>

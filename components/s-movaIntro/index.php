@@ -1,6 +1,6 @@
 <section class="s-movaIntro" id="mova">
     <div class="u-container">
-        <div class="s-movaIntro__resume">
+        <div class="s-movaIntro__resume" data-aos="fade-up">
             <div class="c-defaultContentStyle">
                 <h2>Mova</h2>
                 <br>
@@ -21,7 +21,7 @@
             );
             include('components/c-photo/index.php'); ?>
         </div>
-        <div class="s-movaIntro__products">
+        <div class="s-movaIntro__products" data-aos="fade-up">
             <div class="u-container">
                 <div class="c-responsiveGrid u-calcPositionNegative15 --col2"
                      data-init-cols="2"

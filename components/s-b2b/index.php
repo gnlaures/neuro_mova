@@ -2,7 +2,7 @@
     <div class="s-b2b__effect --before"></div>
     <div class="s-b2b__effect --after"></div>
 
-    <div class="u-container">
+    <div class="u-container" data-aos="fade-up">
         <div class="s-b2b__map">
             <img src="media/img/tagline__todoPais.png" alt="Lojista, baixe o catálogo completo e aumente seus lucros!">
         </div>

@@ -1,13 +1,13 @@
 <section class="s-carrers">
     <div class="u-container">
-        <div class="s-carrers__infos">
+        <div class="s-carrers__infos" data-aos="fade-up">
             <div class="c-defaultContentStyle">
                 <h2>Trabalhe com a Mova</h2>
                 <br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, dignissimos et impedit incidunt ipsam nesciunt qui quisquam ullam? Consectetur fugiat fugit perspiciatis quibusdam repellendus! Amet consequuntur cupiditate dignissimos eligendi enim inventore laborum odit optio placeat quas, quo sint suscipit vitae!</p>
             </div>
         </div>
-        <div class="s-carrers__openJobs">
+        <div class="s-carrers__openJobs" data-aos="fade-up">
             <div class="c-defaultContentStyle">
                 <h3>Vagas</h3>
             </div>
@@ -117,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="s-carrers__form">
+        <div class="s-carrers__form" data-aos="fade-up">
             <div class="c-defaultContentStyle">
                 <h3>Inscreva-se</h3>
             </div>

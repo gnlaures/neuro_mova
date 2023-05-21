@@ -1,4 +1,4 @@
-<section class="s-about">
+<section class="s-about" data-aos="fade-up">
     <div class="s-about__history">
         <div class="u-container">
             <div class="s-about__history__col u-fw45">
