@@ -4,8 +4,6 @@ function updateSliderPageInfo(slider) {
     const totalSlides = slider.querySelectorAll(".swiper-slide").length;
     const activeSlideIndex = slider.querySelector(".swiper-slide-active").getAttribute('aria-label').split(' /')[0];
 
-    console.log(activeSlideIndex)
-
     totalPagesEl.textContent = totalSlides;
     activePageEl.textContent = activeSlideIndex;
 }
