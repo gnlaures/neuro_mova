@@ -90,6 +90,7 @@
         // 404
         default :
             header("HTTP/1.0 404 Not Found");
+            $siteConfig['active_page'] = 'pages/error.php';
             $siteConfig['title'] = $siteConfig['title'].$siteConfig['title_spacer'].'Erro';
             $siteConfig['body_class'] = 'p-inner p-error';
             break;
