@@ -11,18 +11,18 @@
             <div class="c-defaultContentStyle">
                 <h3>Vagas</h3>
             </div>
-            <div class="c-cardOpenJob">
+            <div class="c-cardOpenJob" data-job-id="01">
                 <div class="c-cardOpenJob__head">
                     <div class="c-cardOpenJob__title">
                         <div class="c-defaultContentStyle">
-                            <h4>Banco de Talentos</h4>
+                            <h4>Auxiliar Administrativo</h4>
                         </div>
                     </div>
                     <div class="c-cardOpenJob__more">
                         <?php $cBtn = array(
                             "modifiers" => "--primary --s js-c-cardOpenJob__showInfos",
                             "caption" => "Mais Informações",
-                            "icon" => "media/icons/icon_caretDouble_white.svg",
+                            "icon" => "media/icons/icon_plus.svg",
                             "tag" => "div",
                             "href" => "",
                             "a_title" => "");
@@ -46,18 +46,18 @@
                     include('components/c-btn/index.php'); ?>
                 </div>
             </div>
-            <div class="c-cardOpenJob">
+            <div class="c-cardOpenJob" data-job-id="02">
                 <div class="c-cardOpenJob__head">
                     <div class="c-cardOpenJob__title">
                         <div class="c-defaultContentStyle">
-                            <h4>Banco de Talentos</h4>
+                            <h4>Auxiliar Contábil</h4>
                         </div>
                     </div>
                     <div class="c-cardOpenJob__more">
                         <?php $cBtn = array(
                             "modifiers" => "--primary --s js-c-cardOpenJob__showInfos",
                             "caption" => "Mais Informações",
-                            "icon" => "media/icons/icon_caretDouble_white.svg",
+                            "icon" => "media/icons/icon_plus.svg",
                             "tag" => "div",
                             "href" => "",
                             "a_title" => "");
@@ -81,7 +81,7 @@
                     include('components/c-btn/index.php'); ?>
                 </div>
             </div>
-            <div class="c-cardOpenJob">
+            <div class="c-cardOpenJob" data-job-id="03">
                 <div class="c-cardOpenJob__head">
                     <div class="c-cardOpenJob__title">
                         <div class="c-defaultContentStyle">
@@ -92,7 +92,7 @@
                         <?php $cBtn = array(
                             "modifiers" => "--primary --s js-c-cardOpenJob__showInfos",
                             "caption" => "Mais Informações",
-                            "icon" => "media/icons/icon_caretDouble_white.svg",
+                            "icon" => "media/icons/icon_plus.svg",
                             "tag" => "div",
                             "href" => "",
                             "a_title" => "");

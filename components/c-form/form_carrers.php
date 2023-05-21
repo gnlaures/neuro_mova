@@ -7,7 +7,7 @@
                         <label for="form__carrers__name">Nome</label>
                     </div>
                     <div class="c-field__content">
-                        <input type="text" placeholder="Placeholder" id="form__carrers__name">
+                        <input type="text" placeholder="Nome Completo" id="form__carrers__name">
                     </div>
                 </div>
                 <div class="c-field u-fw30 --default">
@@ -15,7 +15,7 @@
                         <label for="form__carrers__email">E-mail</label>
                     </div>
                     <div class="c-field__content">
-                        <input type="email" placeholder="Placeholder" id="form__carrers__email">
+                        <input type="email" placeholder="E-mail" id="form__carrers__email">
                     </div>
                 </div>
                 <div class="c-field u-fw30 --default">
@@ -23,7 +23,7 @@
                         <label for="form__carrers__phone">Telefone</label>
                     </div>
                     <div class="c-field__content">
-                        <input type="tel" placeholder="Placeholder" id="form__carrers__phone">
+                        <input type="tel" placeholder="Telefone" id="form__carrers__phone">
                     </div>
                 </div>
                 <div class="c-field u-fw100 --default">
@@ -31,18 +31,15 @@
                         <label for="form__carrers__msg">Mensagem</label>
                     </div>
                     <div class="c-field__content">
-                        <textarea type="text" placeholder="Placeholder" id="form__carrers__msg"></textarea>
+                        <textarea type="text" placeholder="Mensagem" id="form__carrers__msg"></textarea>
                     </div>
                 </div>
-                <div class="c-field u-fw100 --default">
+                <div class="c-field u-fw100 --default --jobs u-dnone">
                     <div class="c-field__head">
                         <label for="form__carrers__phone">Vagas Selecionadas</label>
                     </div>
                     <div class="c-field__content">
-                        <ul class="c-cardOpenJob__selectedJobList">
-                            <li><p>Lorem ipsum dolor sit amet.</p></li>
-                            <li><p>Lorem ipsum dolor sit amet.</p></li>
-                            <li><p>Lorem ipsum dolor sit amet.</p></li>
+                        <ul class="c-cardOpenJob__selectedJobList"><!-- js -->
                         </ul>
                     </div>
                 </div>
